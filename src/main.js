@@ -61,6 +61,6 @@ let step = () => {
         demo.scrollTo(0, 9999);//网页自动滚动
         n += 1;
         if (n < string.length) { step(); }
-    }, 1);
+    }, 10);
 };
 step();
